@@ -1,0 +1,44 @@
+.top-header{
+    width: 100%;
+    background-color: #0e2737;
+    font-size: 18px;
+    
+}
+
+.top-header__area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-right: 0;
+    padding-bottom: 12px;
+    padding-left:0;
+}
+
+.top-header__area a{
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.top-header__area a:hover{
+    color: chartreuse;
+    transform: scale(0.8);
+}
+
+.contact span:not(:last-child){
+    padding-right:20px ;
+}
+
+.social-media span{
+    font-size: 20px;
+}
+
+.social-media span:not(:last-child){
+    padding-right: 20px;
+}
+
+.language span:not(.last-child){
+    padding-right: 20px;
+}
+ 
