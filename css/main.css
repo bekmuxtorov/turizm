@@ -132,3 +132,73 @@ header{
     line-height: 1.2;
 }
 
+.sub-title p{
+    margin-bottom: 0.9375rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: chartreuse;
+    font-weight: 500;
+    letter-spacing:5px
+}
+.sub-title h3{
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 1.;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+/* about our */
+.about{
+    padding:200px 0 ;
+}
+.about-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.about-img--item{
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 4px; 
+    width: 48%;  
+}
+
+.about-img--item img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.about-img--item:hover img{
+    transform: scale(1.1);
+}
+
+.desription-p{
+    font-size: 24px;
+    line-height: 2;
+    letter-spacing: 2;
+    color: #000;
+    opacity: 0.8;
+    width: 90%;
+}
+
+.about-link{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 24px;
+    color: chartreuse;
+    transition: all 0.7s;
+}
+
+.about-link:hover{
+    opacity: 0.9;
+}
+
