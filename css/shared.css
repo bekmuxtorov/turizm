@@ -113,7 +113,16 @@ header{
     position: relative;
     margin-bottom: 3rem;
 }
-.title{
+
+.desription-h{
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 1;
+    position: relative;
+    margin-bottom: 3rem;
+}
+.title h1{
     text-align: center;
     font-size: 40px;
     font-weight:600;
@@ -121,6 +130,7 @@ header{
     line-height: 1;
     position: relative;
     margin-bottom: 3rem;
+    width: 100%;
 }
 
 .desription-p{
@@ -130,6 +140,10 @@ header{
     color: #000;
     opacity: 0.8;
     width: 90%;
+}
+
+.desription-p span{
+    padding-left: 50px;
 }
 
 .about-link{
@@ -143,6 +157,7 @@ header{
 .about-link:hover{
     opacity: 0.9;
     color: blue;
+    cursor: pointer;
 }
 
 .active a{
@@ -159,8 +174,8 @@ header{
     background-color: chartreuse;
     filter: blur(4px);
     border-radius: 4px;
-    position: relative;
-    top: -9px;
+    position: absolute;
+    top:23px;
 }
 
 /* contact */
@@ -199,6 +214,7 @@ header{
     color: #000;
     opacity: 0.8;
     width: 100%;
+    font-weight: 500;
 }
 
 .contact-item button{
@@ -206,6 +222,7 @@ header{
     background-color: rgba(128, 255, 0, 0.611);
     border-radius: 5px;
     transition: all 0.5s;
+    outline: none;
 }
 
 .contact-item button:hover{
