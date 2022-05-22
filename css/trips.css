@@ -1,0 +1,102 @@
+.trips{
+    padding:200px 0 0 0;
+    font-family: 'Exo 2',sans-serif;
+}
+
+.title h1{
+    margin-bottom: 2rem !important;
+}
+
+.indicator{
+    display: flex;
+    justify-content:center;
+}
+
+.indicator li{
+    list-style: none;
+}
+.indicator li:not(:last-child){
+    margin-right: 50px;
+}
+
+.indicator a{
+    font-size: 20px;
+    color: black; 
+    text-decoration: none;  
+}
+
+.indicator li a:hover{
+    color: chartreuse;
+}
+
+.items li {
+    display: flex;
+    justify-content: stretch;
+    /* background-color: aqua; */
+    margin-top: 50px;
+    transition: all 0.7s;
+    max-height: 500px;
+}
+
+.trip-item-img{
+    width: 40%;
+}
+
+.trip-item-img img{
+    width:100% !important;
+}
+
+.trip-item-description{
+    width: 50%;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.trip-item-description h2{
+    font-size: 30px;
+}
+
+.trip-item-description p {
+    opacity:1 !important; 
+    font-size: 20px !important;
+    line-height: 1.5;
+    width: 100%;
+}
+
+.contact-item button{
+    padding: 12px 20px;
+    background-color: rgba(128, 255, 0, 0.611);
+    border-radius: 5px;
+    transition: all 0.5s;
+    outline: none;
+}
+
+.control{
+    display: flex;
+    justify-content: space-between;
+}
+
+.control .about-link{
+    margin: 0 !important;
+}
+
+.control button{
+    background-color: chartreuse;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 7px;
+    transition: all 0.5s;
+    opacity: 0.8;
+}
+
+.control button a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.control button:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
