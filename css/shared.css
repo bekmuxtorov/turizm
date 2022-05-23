@@ -129,7 +129,7 @@ header{
     letter-spacing: 2px;
     line-height: 1;
     position: relative;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     width: 100%;
 }
 
@@ -161,7 +161,7 @@ header{
 }
 
 .active a{
-    color: chartreuse;
+    color: chartreuse !important;
     border-bottom: 2px solid chartreuse;
 }
 
@@ -325,3 +325,24 @@ header{
     margin-top: 20px;
 }
 
+.indicator{
+    display: flex;
+    justify-content:center;
+}
+
+.indicator li{
+    list-style: none;
+}
+.indicator li:not(:last-child){
+    margin-right: 50px;
+}
+
+.indicator a{
+    font-size: 20px;
+    color: black; 
+    text-decoration: none;  
+}
+
+.indicator li a:hover{
+    color: chartreuse;
+}

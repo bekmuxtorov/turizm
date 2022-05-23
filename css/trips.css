@@ -7,27 +7,6 @@
     margin-bottom: 2rem !important;
 }
 
-.indicator{
-    display: flex;
-    justify-content:center;
-}
-
-.indicator li{
-    list-style: none;
-}
-.indicator li:not(:last-child){
-    margin-right: 50px;
-}
-
-.indicator a{
-    font-size: 20px;
-    color: black; 
-    text-decoration: none;  
-}
-
-.indicator li a:hover{
-    color: chartreuse;
-}
 
 .items li {
     display: flex;
