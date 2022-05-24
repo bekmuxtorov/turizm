@@ -91,6 +91,7 @@ header{
     transition: all 0.5s; 
     letter-spacing: 0.5px;
     font-size: 18px;
+    white-space: nowrap;
 }
 
 .nav-item:hover a{
@@ -346,3 +347,6 @@ header{
 .indicator li a:hover{
     color: chartreuse;
 }
+
+
+
