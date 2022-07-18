@@ -21,6 +21,14 @@ body{
     text-align: center;
 }
 
+.carousel-item img{
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    min-height: 700px;
+    width: 100%;
+}
+
 .hero-description{
     position: relative;
     top: -60vh;
