@@ -15,13 +15,6 @@ body{
     font-family: 'Exo 2', sans-serif;
 }
 
-.top-header{
-    width: 100%;
-    background-color: #0e2737;
-    font-size: 1.125rem;   
-    position: relative; 
-}
-
 .top-header__area{
     display: flex;
     flex-direction: row;
@@ -348,25 +341,26 @@ header{
     margin-top: 1.25rem;
 }
 
-.indicator{
+.indicator1{
     display: flex;
     justify-content:center;
+
 }
 
-.indicator li{
+.indicator1 li{
     list-style: none;
 }
-.indicator li:not(:last-child){
+.indicator1 li:not(:last-child){
     margin-right: 3.125rem;
 }
 
-.indicator a{
+.indicator1 a{
     font-size: 1.25rem;
     color: black; 
     text-decoration: none;  
 }
 
-.indicator li a:hover{
+.indicator1 li a:hover{
     color: chartreuse;
 }
 
@@ -437,6 +431,9 @@ header{
         font-size: 18px;
     }
 
+    .indicator1 li:not(:last-child){
+        margin-right: 2rem;
+    }
 
 }
 
@@ -475,6 +472,9 @@ header{
         display: none;
     }
     
+    .indicator1 li:not(:last-child){
+        margin-right: 1.5rem;
+    }
 }
 
 @media only screen and (max-width: 800px){
@@ -486,6 +486,36 @@ header{
         padding-bottom: 0;
     }
 
+    .dropdown{
+        display: block;
+    }
+
+    .blur-line{
+        display: none;
+    }
+
+
+
+}
+@media only screen and (max-width: 530px) {
+    .contact-area {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .contact-item{
+        width: 90%;
+        text-align: center;
+    }
+
+    .contact-item button {
+        width: 90%;
+    }
+
+    .indicator1 li:not(:last-child){
+        margin-right: 20px;
+    }
 }
 
 
