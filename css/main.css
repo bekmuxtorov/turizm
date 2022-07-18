@@ -68,7 +68,9 @@ body{
 .about-img--item:hover img{
     transform: scale(1.1);
 }
-
+.hero-description{
+    font-weight: 800;
+}
 
 
 /* servicas */
