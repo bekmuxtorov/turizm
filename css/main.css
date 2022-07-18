@@ -21,9 +21,6 @@ body{
     text-align: center;
 }
 
-.carousel-item-1{
-    background-image: url(/images/image3.jpg);
-}
 .hero-description{
     position: relative;
     top: -60vh;
@@ -305,6 +302,9 @@ body{
         width: 100%;
     }
     
+    .carousel-item {
+        height: 80vh;
+    }
     .about-img--item{
         width: 43%;
         margin: 10px;
@@ -321,7 +321,7 @@ body{
     }
 
     .about {
-        padding: 100px 0;
+        padding: 10px 0;
     }
     .blog-item:not(:last-child){
         margin: 0;
@@ -330,6 +330,11 @@ body{
 
     .blog-item{
         width: 85%;
+    }
+
+    .carousel-inner img{
+        width: 100vw;
+        height: 100%;
     }
 }
 
