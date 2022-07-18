@@ -21,7 +21,8 @@ body{
     text-align: center;
 }
 
-.carousel-item img{
+.main-hire{
+    background-image: url(/images/main-hire.jpg);
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -30,14 +31,33 @@ body{
 }
 
 .hero-description{
-    position: relative;
-    top: -60vh;
+    padding-top: 40vh;
     z-index: 18;
     font-size: 50px;
     color: #fff;
     font-family: 'Exo 2', sans-serif;
     letter-spacing: 1.2px;
     line-height: 1.2;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    min-height: 700px;
+    width: 100%;
+}
+.hero1{
+    background-image: url(/images/main-hire.jpg);
+}
+
+.hero2{
+    background-image: url(/images/forhire.jpg);
+}
+
+.hero1{
+    background-image: url(/images/forhire2.jpg);
+}
+
+.hero1{
+    background-image: url(/images/forhire3.jpg);
 }
 
 /* about our */
